@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="../assets/images/logo-blue.png" />
+    <title>Dashboard minimal</title>
+
+    <!-- plugins -->
+    <link rel="stylesheet" href="../assets/plugins/select2/css/select2.min.css">
+
+    <!-- bundle -->
+    <link rel="stylesheet" href="../assets/bundle/app.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="../assets/css/custom.css">
+</head>
+
+<body>
+
+    <div class="box-general">
+
+        <div class="header">
+
+            <div class="logo">
+                <a href="./index.html" title="Cosmefar Terceirização de Cosméticos">
+                    <img src="../assets/images/logo-fold.png" alt="C.MANAGER">
+                </a>
+            </div>
+
+            <div class="topbar">
+
+                <div class="toggle-menu">
+                    <a href="#" class="btn btn-gray"><i class="fas fa-outdent"></i></a>
+                </div>
+
+                <div class="right-box">
+
+                    <div class="notification">
+
+                        <div class="dropdown">
+                            <a href="#" class="btn btn-gray count">
+                                <i class="far fa-bell"></i>
+                                <span class="number">3</span>
+                            </a>
+                            <div class="dropdown-menu right">
+                                <div class="heading">
+                                    Notificações
+                                </div>
+                                <div class="body">
+                                    <div class="box">
+
+                                        <a class="dropdown-item" href="#">
+                                            <div class="col">
+                                                <div class="icon blue">
+                                                    <i class="fas fa-shopping-cart"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <span class="info">Something else here</span>
+                                                <small class="time">Há 25 minutos</small>
+                                                <span class="read yes" title="Lida"></span>
+                                            </div>
+                                        </a>
+
+                                        <a class="dropdown-item" href="#">
+                                            <div class="col">
+                                                <div class="icon yellow">
+                                                    <i class="fas fa-box-open"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <span class="info">Something else here</span>
+                                                <small class="time">Há 25 minutos</small>
+                                                <span class="read not" title="Não lida"></span>
+                                            </div>
+                                        </a>
+
+                                        <a class="dropdown-item" href="#">
+                                            <div class="col">
+                                                <div class="icon red">
+                                                    <i class="fas fa-headset"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <span class="info">Something else here</span>
+                                                <small class="time">Há 25 minutos</small>
+                                                <span class="read not" title="Não lida"></span>
+                                            </div>
+                                        </a>
+
+                                        <a class="dropdown-item" href="#">
+                                            <div class="col">
+                                                <div class="icon dark-gray">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <span class="info">Something else here</span>
+                                                <small class="time">Há 25 minutos</small>
+                                                <span class="read not" title="Não lida"></span>
+                                            </div>
+                                        </a>
+
+                                    </div>
+                                </div>
+                                <div class="footer">
+                                    <a href="#" class="btn btn-gray btn-block">Ver todas</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="profile">
+
+                        <div class="dropdown">
+                            <a href="#">
+                                <img src="https://www.gravatar.com/avatar/259905cb56f41eff8dcf9d9c0a4cf682?s=200&d=mp&r=x">
+                            </a>
+                            <div class="dropdown-menu right">
+                                <a class="dropdown-item" href="#">Minha conta</a>
+                                <a class="dropdown-item" href="#">Alterar senha</a>
+                                <a class="dropdown-item" href="#">Sair</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="sidebar">
+
+            <div class="menu-wrap">
+
+                <ul>
+                    <li class="active">
+                        <a href="./index.html">
+                            <i class="fas fa-tachometer-alt"></i>
+                            <span class="label">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="label">Pedidos</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-air-freshener"></i>
+                            <span class="label">Produtos</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-box-open"></i>
+                            <span class="label">Estoques</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-headset"></i>
+                            <span class="label">Tickets</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span class="label">Materiais/cursos</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-users"></i>
+                            <span class="label">Usuários</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="far fa-file"></i>
+                            <span class="label">Páginas</span>
+                        </a>
+                        <ul>
+                            <li><a href="./dashboard-ui.html">Dashboard UI/UX</a></li>
+                            <li><a href="./course-catalog.html">Courses</a></li>
+                            <li><a href="./course-single.html">Course single page</a></li>
+                            <li><a href="./help-desk.html">Help Desk</a></li>
+                            <li><a href="./body-loading-placeholder.html">Body Loading Placeholder</a></li>
+                            <li><a href="./login.html">Login</a></li>
+                            <li><a href="./register.html">Register</a></li>
+                            <li><a href="./forgot-password.html">Forgot password</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="far fa-file-code"></i>
+                            <span class="label">Elementos</span>
+                        </a>
+                        <ul>
+                            <li><a href="./table.html">Table</a></li>
+                            <li><a href="./button.html">Button</a></li>
+                            <li><a href="./tab.html">Tab</a></li>
+                            <li><a href="./modal.html">Modal</a></li>
+                            <li><a href="./card.html">Card</a></li>
+                            <li><a href="./column.html">Column</a></li>
+                            <li><a href="./form.html">Form</a></li>
+                            <li><a href="./chart.html">Chart</a></li>
+                            <li><a href="./progressbar.html">Progress bar</a></li>
+                            <li><a href="./alert.html">Alert</a></li>
+                            <li><a href="./badge.html">Badge</a></li>
+                            <li><a href="./menu-accordion.html">Menu accordion</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-sign-out-alt"></i>
+                            <span class="label">Sair</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="container">
+
+            <!-- page-header -->
+            <div class="page-header split-col">
+
+                <div class="col">
+                    <h3 class="title">Chamado (2021958567)</h3>
+                    <small class="text-dark-gray">Aberto em: quarta-feira, 20 de outubro de 2021 10:52</small>
+                </div>
+
+                <div class="col">
+                    <a href="#" class="btn btn-gray ml-10" title="Status">Em aberto</a>
+                </div>
+
+            </div>
+
+            <!-- Comments and details -->
+            <div class="row">
+
+                <div class="col-70 mt-30 mb-30">
+
+                    <div class="box-heading action">
+                        <div class="row">
+                            <div class="col-60 v-align-middle">
+                                <h3>Comentários</h3>
+                            </div>
+                            <div class="col-40 v-align-middle text-align-right">
+                                <a href="#" class="btn btn-dark-gray" title="Adicionar comentário" data-trigger="modal" data-modal="#modal-comment">
+                                    <i class="fas fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card comment mt-15">
+
+                        <div class="heading">
+
+                            <div class="row">
+
+                                <div class="col-70 v-align-middle">
+
+                                    <div class="box-profile">
+                                        <div class="avatar">
+                                            <img src="https://www.gravatar.com/avatar/259905cb56f41eff8dcf9d9c0a4cf682?s=200&d=mp&r=x">
+                                        </div>
+                                        <div class="info">
+                                            <div class="name text-black">Elon Musk</div>
+                                            <div class="detail text-dark-gray">Cliente</div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="col-30 v-align-middle text-align-right">
+                                    
+                                    <a href="#" title="Responder" class="text-black mr-15 replies"><i class="fas fa-reply-all"></i></a>
+
+                                    <div class="dropdown">
+                                        <a href="#" class="text-black"><i class="fas fa-ellipsis-v"></i></a>
+                                        <div class="dropdown-menu right text-left">
+                                            <a class="dropdown-item" href="#">
+                                                <i class="far fa-edit"></i>
+                                                Editar
+                                            </a>
+                                            <a class="dropdown-item" href="#">
+                                                <i class="far fa-minus-square"></i>
+                                                Excluir
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="body">
+
+                            <div class="content">
+
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                    has been the industry's standard Lorem Ipsum is simply dummy text of the printing and 
+                                    typesetting industry. Lorem Ipsum has been the industry's standard
+                                </p>
+
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                    has been the industry's standard
+                                </p>
+
+                            </div>
+
+                            <div class="actions">
+
+                                <div class="row">
+
+                                    <div class="col-50 v-align-middle">
+                                        <a href="#" title="Responder" class="text-black mr-15">Responder</a>
+                                        <a href="#" title="Curtir" class="text-black">Curtir</a>
+                                    </div>
+
+                                    <div class="col-50 v-align-middle text-align-right">
+                                        <a href="#" title="Anexos" class="text-black mr-15"><i class="fas fa-paperclip"></i> 0 </a>
+                                        <a href="#" title="Curtidas" class="text-black"><i class="far fa-heart"></i> 0 </a>
+                                    </div>     
+                                    
+                                </div>
+                                
+                            </div>
+
+                            <div class="card comment mt-30">
+
+                                <div class="heading">
+
+                                    <div class="row">
+        
+                                        <div class="col-70 v-align-middle">
+        
+                                            <div class="box-profile">
+                                                <div class="avatar">
+                                                    <img src="https://www.gravatar.com/avatar/259905cb56f41eff8dcf9d9c0a4cf682?s=200&d=mp&r=x">
+                                                </div>
+                                                <div class="info">
+                                                    <div class="name text-black">Maria Musk</div>
+                                                    <div class="detail text-dark-gray">Comercial</div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+        
+                                        <div class="col-30 v-align-middle text-align-right">
+                                            
+                                            <a href="#" title="Responder" class="text-black mr-15 replies"><i class="fas fa-reply-all"></i></a>
+        
+                                            <div class="dropdown">
+                                                <a href="#" class="text-black"><i class="fas fa-ellipsis-v"></i></a>
+                                                <div class="dropdown-menu right text-left">
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="far fa-edit"></i>
+                                                        Editar
+                                                    </a>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="far fa-minus-square"></i>
+                                                        Excluir
+                                                    </a>
+                                                </div>
+                                            </div>
+        
+                                        </div>
+        
+                                    </div>
+        
+                                </div>
+
+                                <div class="body">
+        
+                                    <div class="content">
+        
+                                        <p>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                            has been the industry's standard Lorem Ipsum is simply dummy text of the printing and 
+                                            typesetting industry. Lorem Ipsum has been the industry's standard
+                                        </p>
+        
+                                    </div>
+        
+                                    <div class="actions">
+        
+                                        <div class="row">
+        
+                                            <div class="col-50 v-align-middle">
+                                                <a href="#" title="Responder" class="text-black mr-15">Responder</a>
+                                                <a href="#" title="Você curtiu" class="text-red">Você curtiu</a>
+                                            </div>
+        
+                                            <div class="col-50 v-align-middle text-align-right">
+                                                <a href="#" title="Editado" class="text-dark-gray mr-15"><i class="fas fa-info-circle"></i> Editado</a>
+                                                <a href="#" title="Anexos" class="text-blue mr-15"><i class="fas fa-paperclip"></i> 5 </a>
+                                                <a href="#" title="Curtidas" class="text-red"><i class="fas fa-heart"></i> 3 </a>
+                                            </div>     
+                                            
+                                        </div>
+                                        
+                                    </div>
+        
+                                </div>
+        
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="card comment mt-30">
+
+                        <div class="heading">
+
+                            <div class="row">
+
+                                <div class="col-70 v-align-middle">
+
+                                    <div class="box-profile">
+                                        <div class="avatar">
+                                            <img src="https://www.gravatar.com/avatar/259905cb56f41eff8dcf9d9c0a4cf682?s=200&d=mp&r=x">
+                                        </div>
+                                        <div class="info">
+                                            <div class="name text-black">Letícia Musk</div>
+                                            <div class="detail text-dark-gray">Comercial</div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="col-30 v-align-middle text-align-right">
+                                    
+                                    <a href="#" title="Responder" class="text-black mr-15 replies"><i class="fas fa-reply-all"></i></a>
+
+                                    <div class="dropdown">
+                                        <a href="#" class="text-black"><i class="fas fa-ellipsis-v"></i></a>
+                                        <div class="dropdown-menu right text-left">
+                                            <a class="dropdown-item" href="#">
+                                                <i class="far fa-edit"></i>
+                                                Editar
+                                            </a>
+                                            <a class="dropdown-item" href="#">
+                                                <i class="far fa-minus-square"></i>
+                                                Excluir
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="body">
+
+                            <div class="content">
+
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                    has been the industry's standard Lorem Ipsum is simply dummy text of the printing and 
+                                    typesetting industry. Lorem Ipsum has been the industry's standard
+                                </p>
+
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                    has been the industry's standard
+                                </p>
+
+                            </div>
+
+                            <div class="actions">
+
+                                <div class="row">
+
+                                    <div class="col-50 v-align-middle">
+                                        <a href="#" title="Responder" class="text-black mr-15">Responder</a>
+                                        <a href="#" title="Curtir" class="text-black">Curtir</a>
+                                    </div>
+
+                                    <div class="col-50 v-align-middle text-align-right">
+                                        <a href="#" title="Anexos" class="text-black mr-15"><i class="fas fa-paperclip"></i> 0 </a>
+                                        <a href="#" title="Curtidas" class="text-black"><i class="far fa-heart"></i> 0 </a>
+                                    </div>     
+                                    
+                                </div>
+                                
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-30 mt-30">
+
+                    <div class="box-heading mb-20">
+                        <h3>Acompanhado por</h3>
+                    </div>
+
+                    <div class="card">
+
+                        <div class="body">
+
+                            <div class="box-profile">
+                                <div class="avatar">
+                                    <img src="https://www.gravatar.com/avatar/259905cb56f41eff8dcf9d9c0a4cf682?s=200&d=mp&r=x">
+                                </div>
+                                <div class="info">
+                                    <div class="name text-black">Letícia Musk</div>
+                                    <div class="detail text-dark-gray">Comercial</div>
+                                </div>
+                            </div>
+
+                            <div class="box-profile mt-15">
+                                <div class="avatar">
+                                    <img src="https://www.gravatar.com/avatar/259905cb56f41eff8dcf9d9c0a4cf682?s=200&d=mp&r=x">
+                                </div>
+                                <div class="info">
+                                    <div class="name text-black">Maria Musk</div>
+                                    <div class="detail text-dark-gray">Comercial</div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="box-heading mb-20 mt-30">
+                        <h3>Assuntos</h3>
+                    </div>
+
+                    <div class="card mb-30">
+
+                        <div class="body">
+
+                            <a href="#" class="badge badge-gray badge-block">Regulatório</a>
+                            <a href="#" class="badge badge-gray badge-block mt-15">Financeiro</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- modal scrollbar -->
+            <div class="modal scrollbar" id="modal-comment" tabindex="-1" role="dialog">
+
+                <div class="dialog centered" role="document">
+
+                    <div class="content">
+
+                        <a href="#" class="close">x</a>
+
+                        <div class="header">
+                            <p>Comentar</p>
+                        </div>
+
+                        <div class="body scrollbar">
+                            
+                            <div class="form-wrap row pt-30 pb-30">
+
+                                <div class="group col-100">
+                                    <label for="cpf">Mensagem</label>
+                                    <textarea name="comment" id="comment"></textarea>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="footer">
+
+                            <div class="row">
+                                <div class="col-50">
+                                    <a href="#" class="btn btn-gray btn-block close">
+                                        <i class="fas fa-times"></i>
+                                        Cancelar
+                                    </a>
+                                </div>
+                                <div class="col-50">
+                                    <a href="#" class="btn btn-blue btn-block">
+                                        <i class="far fa-paper-plane"></i>
+                                        Enviar
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- box-general -->
+
+    <!-- bundle -->
+    <script src="../assets/bundle/app.js"></script>
+
+    <!-- plugins -->
+    <script src="../assets/plugins/select2/js/select2.min.js"></script>
+    <script src="../assets/plugins/tinymce/tinymce.min.js"></script>
+    <script src="../assets/plugins/tinymce/jquery.tinymce.min.js"></script>
+
+    <!-- custom js -->
+    <script src="../assets/js/custom.js"></script>
+
+    <!-- fix error -->
+    <script src="../assets/js/fix-error.js"></script>
+
+    <script>
+        (function ($) {
+
+            $('.select-two').select2({
+                placeholder: "---",
+                allowClear: true
+            });
+
+            $('textarea#comment').tinymce({
+                language: 'pt_BR',
+                menubar: false,
+                toolbar: "bold italic underline numlist bullist emoticons",
+                branding: false,
+                plugins: "paste lists mentionuser emoticons",
+                paste_as_text: true,
+                orced_root_block: "",
+                force_br_newlines: true,
+                force_p_newlines: false,
+            });
+
+        })(jQuery);
+    </script>
+</body>
+
+</html>
